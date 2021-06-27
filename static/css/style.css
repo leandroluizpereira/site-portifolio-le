@@ -30,6 +30,9 @@ header:hover{
     cursor: pointer;
 }
 .img-work{
+  
+    width: 15px;
+    height: 15px;
 }
 .titulo{
     font-size: 35px;
