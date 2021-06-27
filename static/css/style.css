@@ -106,7 +106,7 @@ p{
 
 
 .div-foto{
-
+  opacity: 0.6;
     background-image: url(../imagem/leandro-formatura.jpg);
     background-size: cover;
      grid-area: div-foto;
@@ -118,6 +118,7 @@ p{
  background-color: darkcyan;
 }
 .div-foto:hover{
+    opacity: 1;
 
     cursor: pointer;
 
