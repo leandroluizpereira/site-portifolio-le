@@ -103,7 +103,9 @@ p{
 }
 
 .div-foto{
- grid-area: div-foto;
+    background-image: url(../imagem/leandro-formatura.jpg);
+    background-size: cover;
+     grid-area: div-foto;
  margin-left: 30px;
 
  width: 250px;
