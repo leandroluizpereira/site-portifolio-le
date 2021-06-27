@@ -100,14 +100,13 @@ p{
     grid-template-areas: 
     "div-foto div-sobre"
     ;
-    opacity: 0.8;
-}
-.grid-foto:hover{
-    opacity: 1;
-    cursor: pointer;
+
+
 }
 
+
 .div-foto{
+
     background-image: url(../imagem/leandro-formatura.jpg);
     background-size: cover;
      grid-area: div-foto;
@@ -116,6 +115,11 @@ p{
  width: 250px;
  height: 350px;
  background-color: darkcyan;
+}
+.div-foto:hover{
+
+    cursor: pointer;
+
 }
 
 .div-sobre{
