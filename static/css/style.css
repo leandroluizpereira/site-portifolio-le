@@ -56,7 +56,7 @@ h4{
 aside{
     z-index: 1;
     margin-left: 50px;
-    margin-right: 50px;
+
     margin-top: -50px;
     grid-area: aside;
     background-color: rgb(190, 240, 255);
@@ -81,7 +81,7 @@ aside{
 main{
 
 margin: 50px 0px ;
-    width: 82%;
+    width: 87%;
     height: 1200px;
     grid-area: main;
     padding: 0px;
