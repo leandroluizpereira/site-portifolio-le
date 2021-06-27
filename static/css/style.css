@@ -106,7 +106,7 @@ p{
 
 
 .div-foto{
-  opacity: 0.5;
+  opacity: 0.3;
     background-image: url(../imagem/leandro-formatura.jpg);
     background-size: cover;
      grid-area: div-foto;
@@ -125,6 +125,7 @@ p{
     cursor: pointer;
 
 }
+
 .fundo-foto{
  
    margin-left: 20px;
@@ -139,7 +140,7 @@ p{
 
 @keyframes opac{
     from{
-        opacity: 0.5;
+        opacity: 0.3;
 
     }
     to{
@@ -153,6 +154,6 @@ p{
 
     }
     to{
-        opacity: 0.5;
+        opacity: 0.3;
     }
 }
