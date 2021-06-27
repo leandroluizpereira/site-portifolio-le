@@ -100,6 +100,11 @@ p{
     grid-template-areas: 
     "div-foto div-sobre"
     ;
+    opacity: 0.8;
+}
+.grid-foto:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .div-foto{
