@@ -55,7 +55,7 @@ h4{
 
 aside{
     z-index: 1;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-right: 50px;
     margin-top: -50px;
     grid-area: aside;
@@ -80,11 +80,11 @@ aside{
 
 main{
 
-margin: 50px 10px ;
-    width: 85%;
+margin: 50px 0px ;
+    width: 82%;
     height: 1200px;
     grid-area: main;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.419);
   
 }
