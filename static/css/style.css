@@ -43,10 +43,20 @@ h1{
    
     
 }
+h3{
+    text-align: center;
+    color:white;
+    background-color: darkcyan;
+}
+h4{
+    text-align: center;
+    color:darkcyan;
+}
 
 aside{
     z-index: 1;
     margin-left: 10px;
+    margin-right: 50px;
     margin-top: -50px;
     grid-area: aside;
     background-color: rgb(190, 240, 255);
@@ -64,7 +74,7 @@ main{
 
 margin: auto -50px;
     width: 850px;
-    height: 400px;
+    height: 1200px;
     grid-area: main;
     background-color: rgb(190, 240, 255);
 }
@@ -77,4 +87,19 @@ p{
 
 .grid-foto{
     display: grid;
+    grid-template-areas: 
+    "div-foto div-sobre"
+    ;
+}
+
+.div-foto{
+ grid-area: div-foto;
+
+ width: 290px;
+ height: 350px;
+ background-color: darkcyan;
+}
+
+.div-sobre{
+    grid-area: div-sobre;
 }
