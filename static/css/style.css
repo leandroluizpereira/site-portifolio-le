@@ -116,9 +116,11 @@ p{
  width: 250px;
  height: 350px;
  background-color: darkcyan;
+ animation: opacDois 1s linear;
 }
 .div-foto:hover{
     opacity: 1;
+    animation: opac 1s linear;
 
     cursor: pointer;
 
@@ -133,4 +135,24 @@ p{
 
 .div-sobre{
     grid-area: div-sobre;
+}
+
+@keyframes opac{
+    from{
+        opacity: 0.6;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes opacDois{
+    from{
+        opacity: 1;
+
+    }
+    to{
+        opacity: 0.6;
+    }
 }
