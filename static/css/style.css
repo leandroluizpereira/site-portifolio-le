@@ -104,6 +104,7 @@ p{
 
 .div-foto{
  grid-area: div-foto;
+ margin-left: 30px;
 
  width: 290px;
  height: 350px;
