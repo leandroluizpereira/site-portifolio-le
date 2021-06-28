@@ -88,9 +88,8 @@ aside{
 @media  (min-width:450px) and  (max-width:700px){
     aside{
         z-index: 1;
-        margin-left: 50px;
-        margin-right: 20x;
-        margin-top: -50px;
+ 
+        margin: -50px auto;
         grid-area: aside;
         background-color: rgb(190, 240, 255);
         width: 76%;
