@@ -148,9 +148,34 @@ p{
 }
 
 .container-foto-ilustr{
-    background-color: darkcyan;
+
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: darkcyan;
+}
+
+.foto-ilus{
+
+    margin-top: 40px;
+    
+    background-image: url(../imagem/mulher_segurando_flor_2.jpg);
+    background-size: cover;
+
+    border: 4px solid rgb(4, 4, 135);
+    width: 400px;
+    height: 400px;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.453);
+   
+
+}
+.foto-ilus:hover{
+
+    animation:opac 2s linear;
+    cursor: pointer;
+  
 }
 
 footer{
@@ -163,19 +188,11 @@ footer{
 @keyframes opac{
     from{
         opacity: 0.3;
-
-    }
-    to{
-        opacity: 1;
-    }
+ 
+}
+to{
+    opacity: 1;
 }
 
-@keyframes opacDois{
-    from{
-        opacity: 1;
-
-    }
-    to{
-        opacity: 0.3;
-    }
 }
+
