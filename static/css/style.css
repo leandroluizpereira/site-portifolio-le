@@ -29,10 +29,9 @@ header:hover{
     opacity: 0.9;
     cursor: pointer;
 }
-.img-work{
-  
-    width: 15px;
-    height: 15px;
+.img-align{
+    position: relative;
+    top: 5px;
 }
 .titulo{
     font-size: 35px;
@@ -54,6 +53,7 @@ h3{
     background-color: darkcyan;
 }
 h4{
+   margin:10px;
     text-align: center;
     color:darkcyan;
 }
@@ -86,7 +86,7 @@ aside{
 main{
      margin: 40px auto ;
 
-    width: 90%;
+    width: 75%;
     height: 1250px;
     grid-area: main;
 
