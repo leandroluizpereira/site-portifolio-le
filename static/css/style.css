@@ -32,6 +32,8 @@ header:hover{
 .img-align{
     position: relative;
     top: 5px;
+    width: 20px;
+    height: 20px;
 }
 .titulo{
     font-size: 35px;
