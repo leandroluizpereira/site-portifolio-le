@@ -13,7 +13,7 @@ body{
       grid-template-columns: 305px 1fr;
 
 }
-@media  (min-width:0px) and  (max-width:600px){
+@media  (min-width:0px) and  (max-width:700px){
 
 
     .grid{
@@ -85,7 +85,7 @@ aside{
     height: 730px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
 }
-@media  (min-width:450px) and  (max-width:600px){
+@media  (min-width:450px) and  (max-width:700px){
     aside{
         z-index: 1;
         margin-left: 50px;
@@ -93,7 +93,7 @@ aside{
         margin-top: -50px;
         grid-area: aside;
         background-color: rgb(190, 240, 255);
-        width: 430px;
+        width: 76%;
         height: 800px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
 
@@ -126,10 +126,10 @@ aside{
     height: 180px;
     background-color: darkcyan;
 }
-@media  (min-width:450px) and  (max-width:600px){
+@media  (min-width:450px) and  (max-width:700px){
     .container-foto{
         margin: 10px auto;
-        width: 380px;
+        width: 90%;
         height: 280px;
         background-color: darkcyan;
     }
