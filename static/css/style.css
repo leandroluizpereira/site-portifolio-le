@@ -68,7 +68,7 @@ aside{
     grid-area: aside;
     background-color: rgb(190, 240, 255);
     width: 250px;
-    height: 800px;
+    height: 730px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
 }
 .skill{
