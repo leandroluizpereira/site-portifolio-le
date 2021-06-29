@@ -89,7 +89,7 @@ aside{
     aside{
         z-index: 1;
  
-        margin: -50px auto;
+        margin: 30px auto;
         grid-area: aside;
         background-color: rgb(190, 240, 255);
         width: 76%;
@@ -102,7 +102,7 @@ aside{
     aside{
         z-index: 1;
      
-        margin: -50px auto;
+        margin: -30px auto;
         grid-area: aside;
         background-color: rgb(190, 240, 255);
         width: 280px;
