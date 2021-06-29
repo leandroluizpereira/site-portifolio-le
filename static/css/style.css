@@ -301,6 +301,22 @@ p{
 .div-sobre{
     grid-area: div-sobre;
 }
+.container-forma{
+    width: 75%;
+    height: 250px;
+    margin: 10px auto 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
+
+}
+
+ul{
+    margin-left: 70px;
+    text-decoration: none;
+    
+}
+
+
+
 
 
 
