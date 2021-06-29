@@ -118,12 +118,8 @@ aside{
     background-color: darkcyan;
 }
 
-
-
-
 main{
-  
-  
+ margin: 0px;
 }
 @keyframes slide-sobre{
     from{
