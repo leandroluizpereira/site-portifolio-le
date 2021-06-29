@@ -1,2 +1,2 @@
-alert("Bem ao meu portifolio !");
+alert("Bem vindo ao meu portifolio !");
 

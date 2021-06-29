@@ -151,6 +151,7 @@ aside{
     height: 180px;
     background-color: darkcyan;
 }
+
 @media  (min-width:450px) and  (max-width:770px){
     .container-foto{
         margin: 10px auto;
