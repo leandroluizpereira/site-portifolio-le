@@ -240,6 +240,23 @@ p{
     }
 
 }
+@media  (min-width:450px) and  (max-width:700px){
+
+    .div-foto{
+    background-image: url(../imagem/leandro-formatura.jpg);
+    background-size: cover;
+     grid-area: div-foto;
+ margin-left: 5px;
+ margin-top: 5px;
+
+ width: 250px;
+ height: 350px;
+ background-color: darkcyan;
+ ;
+ margin-bottom: 15px;
+}
+}
+
 .div-foto:hover{
     opacity: 1;
 
@@ -249,7 +266,7 @@ p{
 
 .fundo-foto{
  
-   margin-left: 50px;
+    margin:auto;
     width: 260px;
     height: 360px;
     background-color: darkcyan;
@@ -260,7 +277,7 @@ p{
 
     .fundo-foto{
  
-        margin-left: 40px;
+        margin:auto;
          width: 185px;
          height: 260px;
          background-color: darkcyan;
@@ -269,6 +286,17 @@ p{
      }
 
 }
+@media  (min-width:450px) and  (max-width:700px){
+    
+    .fundo-foto{
+        margin:auto;
+        width: 260px;
+        height: 360px;
+        background-color: darkcyan;
+        ;
+        margin-bottom: 15px;
+     }
+    }
 
 .div-sobre{
     grid-area: div-sobre;
