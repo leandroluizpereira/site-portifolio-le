@@ -8,10 +8,6 @@
 }
 
 
-
-
-
-
 body{
     margin: 0px;
 }
@@ -80,7 +76,7 @@ h1{
 h3{
     text-align: center;
     color:white;
-    background-color: darkcyan;
+    background-color: var(--cor-Azul-Escuro);
 }
 h4{
    margin:10px;
@@ -105,7 +101,7 @@ aside{
     margin-right: 20x;
     margin-top: -50px;
     grid-area: aside;
-    background-color: rgb(190, 240, 255);
+    background-color: var(--cor-Azul-Claro);
     width: 250px;
     height: 730px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
@@ -115,7 +111,7 @@ aside{
 
 .skill{
     text-align: center;
-    background-color: darkcyan;
+    background-color: var(--cor-Azul-Escuro);
     border-radius: 20px;
     color: white;
  
@@ -124,7 +120,7 @@ aside{
     margin: 10px auto;
     width: 220px;
     height: 180px;
-    background-color: darkcyan;
+    background-color:var(--cor-Azul-Escuro);
 }
 
 main{
@@ -181,7 +177,7 @@ p{
 
  width: 250px;
  height: 350px;
- background-color: darkcyan;
+ background-color: var(--cor-Azul-Escuro);
  ;
  margin-bottom: 15px;
 }
@@ -200,7 +196,7 @@ p{
     margin-left: 40px;
     width: 260px;
     height: 360px;
-    background-color: darkcyan;
+    background-color: var(--cor-Azul-Escuro);
     ;
     margin-bottom: 15px;
 }
@@ -237,7 +233,7 @@ footer{
     display: flex;
     width: 100%;
     height: 120px;
-    background-color: darkcyan;
+    background-color: var(--cor-Azul-Escuro);
     margin-left: 10px;
   
 }
