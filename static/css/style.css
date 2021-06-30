@@ -1,4 +1,16 @@
 @charset "UTF-8";
+
+
+:root{
+/*Paleta de cores*/
+    --cor-Azul-Escuro:darkcyan;
+}
+
+
+
+
+
+
 body{
     margin: 0px;
 }
@@ -22,7 +34,7 @@ header {
 
     width: 100%;
     height: 250px;
-    background-color: darkcyan;
+    background-color: var(--cor-Azul-Escuro);
 
 }
 header:hover{
