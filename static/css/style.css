@@ -222,7 +222,15 @@ ul{
     
 }
 
+.container-habi{
+    width: 75%;
+    height: auto;
+    margin: 10px auto 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
+    padding-bottom: 25px;
 
+
+}
 
 
 
