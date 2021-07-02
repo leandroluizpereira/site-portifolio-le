@@ -6,6 +6,7 @@
     .grid{
         display: grid;
         grid-template-areas: 
+          "header"
           "aside "
           "main"
           "footer";
