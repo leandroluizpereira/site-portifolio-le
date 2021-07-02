@@ -18,8 +18,12 @@
         height: 280px;
         background-color: darkcyan;
 
+    }
+        .titulo{
+            font-size: 27px;
+        }
         
-}
+
 
 
 
