@@ -146,6 +146,7 @@ main{
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.419);
     animation: slide-sobre 2s linear;
+    border-radius: 10px;
 
 }
 
@@ -165,7 +166,7 @@ p{
     "footer footer";
     padding-bottom: 30px;
 
-    
+  
 
 
 }
@@ -219,6 +220,7 @@ p{
     margin: 10px auto 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
     padding-bottom: 25px;
+    border-radius: 10px;
 
 }
 
@@ -234,7 +236,7 @@ ul{
     margin: 10px auto 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
     padding-bottom: 25px;
-
+    border-radius: 10px;
 
 }
 .container-conh{
@@ -243,6 +245,7 @@ ul{
     margin: 10px auto 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
     padding-bottom: 25px;
+    border-radius: 10px;
 }
 .card{
     
