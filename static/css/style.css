@@ -245,14 +245,29 @@ ul{
     padding-bottom: 25px;
 }
 .card{
+    
     margin: 15px;
     border-radius: 10px;
     text-align: center;
-    width: 21%;
+    width: 20%;
     display: inline-block;
     padding: 30px;
     background-color: var(--cor-Azul-Escuro);
     color: white;
+    transition: 0.5s;
+    border: 2px solid transparent;
+}
+.card:hover{
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    padding: 30px;
+    background-color: white;
+    color: var(--cor-Azul-Escuro); 
+    border: 2px solid var(--cor-Azul-Escuro);
+    cursor: pointer;
 }
 
 
