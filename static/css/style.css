@@ -246,11 +246,11 @@ ul{
 }
 .card{
     
-    margin: 15px;
+    margin: 10px auto 10px auto;
     border-radius: 10px;
     text-align: center;
-    width: 20.7%;
-    display: inline-block;
+    width: 70%;
+  
     padding: 30px;
     background-color: var(--cor-Azul-Escuro);
     color: white;
@@ -258,11 +258,11 @@ ul{
     border: 2px solid transparent;
 }
 .card:hover{
-    margin: 15px;
+    margin: 10px auto 10px auto;
     border-radius: 10px;
     text-align: center;
-    width: 20.7%;
-    display: inline-block;
+    width: 30%;
+ 
     padding: 30px;
     background-color: white;
     color: var(--cor-Azul-Escuro); 
