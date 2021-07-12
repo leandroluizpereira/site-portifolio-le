@@ -162,7 +162,10 @@ p{
     display: grid;
     grid-template-areas: 
     "div-foto div-sobre"
-    "footer footer"
+    "footer footer";
+    padding-bottom: 30px;
+
+    
 
 
 }
@@ -208,6 +211,7 @@ p{
 
 .div-sobre{
     grid-area: div-sobre;
+    
 }
 .container-forma{
     width: 75%;
