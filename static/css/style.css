@@ -246,7 +246,7 @@ ul{
 }
 .card{
     
-    margin: 10px auto 10px auto;
+    margin: 20px auto 20px auto;
     border-radius: 10px;
     text-align: center;
     width: 55%;
@@ -259,7 +259,7 @@ ul{
     border: 2px solid transparent;
 }
 .card:hover{
-    margin: 10px auto 10px auto;
+    margin: 20px auto 20px auto;
     border-radius: 10px;
     text-align: center;
     width: 20%;
