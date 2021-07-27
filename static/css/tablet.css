@@ -93,11 +93,7 @@
     border-radius: 10px;
 }
     
-    ul{
-        margin-left: 70px;
-        text-decoration: none;
-        
-    }
+ 
     
 footer{
     grid-area: footer;

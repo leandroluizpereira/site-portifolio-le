@@ -42,8 +42,10 @@
         .container-foto{
             margin: 10px auto;
             width: 260px;
-            height: 180px;
-            background-color: darkcyan;
+            height: 260px;
+            background-image: url(../imagem/leandro.webp);
+    background-size: cover;
+    background-position: center;
         }
     }
 
@@ -134,11 +136,32 @@
                     }
                 
                 
-                ul{
-                    margin-left: 70px;
-                    text-decoration: none;
-                    
-                }
+                    .card{
+    
+                        margin: 10px;
+                        border-radius: 10px;
+                        text-align: center;
+                        width: 220px;
+                       font-size: 20px;
+                      
+                        padding: 30px;
+                        background-color: var(--cor-Azul-Escuro);
+                        color: white;
+                        transition: 0.5s;
+                        border: 2px solid transparent;
+                    }
+                    .card:hover{
+                        margin: 10px;
+                        border-radius: 10px;
+                        text-align: center;
+                        width: 220px;
+                     
+                        padding: 30px;
+                        background-color: white;
+                        color: var(--cor-Azul-Escuro); 
+                        border: 2px solid var(--cor-Azul-Escuro);
+                        cursor: pointer;
+                    }         
                 
 footer{
     grid-area: footer;

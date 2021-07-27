@@ -123,7 +123,10 @@ aside{
     margin: 10px auto;
     width: 220px;
     height: 180px;
-    background-color:var(--cor-Azul-Escuro);
+    background-image: url(../imagem/leandro.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 main{
@@ -225,9 +228,11 @@ p{
 
 }
 
-ul{
-    margin-left: 70px;
+ul,li{
+    margin:auto;
+    width: 70%;
     text-decoration: none;
+
     
 }
 
